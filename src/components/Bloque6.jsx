@@ -1,7 +1,7 @@
 import { Card3 } from "./Card3";
 export const Bloque6 = () => {
   return (
-    <>
+    <div id="servicios">
       <h2 className="font-bold text-2xl text-principal text-center">
         ¿Cómo trabajamos?
       </h2>
@@ -31,6 +31,6 @@ export const Bloque6 = () => {
           }
         />
       </div>
-    </>
+    </div>
   );
 }

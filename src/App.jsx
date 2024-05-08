@@ -9,6 +9,7 @@ import { Bloque6 } from "./components/Bloque6";
 import { Bloque7 } from "./components/Bloque7";
 import { Bloque8 } from "./components/Bloque8";
 import { Footer } from "./components/Footer";
+import { WhatsApp } from "./components/WhatsApp";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         pag1={'Servicios'}
         pag3={'Contacto'}
       />
+      <WhatsApp />
       <Hero
         title={'¿Quieres dejar de generar likes y empezar a vender?'}
         body={'Nosotros te ayudamos'}

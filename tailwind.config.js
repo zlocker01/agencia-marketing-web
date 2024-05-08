@@ -8,7 +8,7 @@ export default {
         principal: '#056CF2',
         secondary: '#0540F2',
         text: '#ecf0f1',
-        'text-secondary': '#000'
+        whatsApp: '#08C040',
       },
     },
   },

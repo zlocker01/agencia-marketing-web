@@ -15,7 +15,9 @@ export const Navbar = ({ name, pag1, pag2, pag3 }) => {
     <header className="flex justify-center items-start fixed w-full z-10">
       <nav className="bg-background text-principal w-full h-auto top-0 left-0 flex flex-row flex-wrap lg:flex-nowrap justify-between items-center px-8 py-2 shadow-md shadow-slate-600 rounded-lg opacity-80 m-3">
         <div className="logo font-large font-bold text-base sm:text-lg hover:text-secondary cursor-pointer">
-          <h1>{name}</h1>
+          <h1>
+            <a href="#">{name}</a>
+          </h1>
         </div>
         <button id="menu-button" type="button">
           <svg
@@ -38,7 +40,7 @@ export const Navbar = ({ name, pag1, pag2, pag3 }) => {
         <ul className="navbar-list flex flex-col lg:flex-row w-full lg:w-auto justify-around items-center hidden lg:flex">
           <li className="my-5 lg:my-0">
             <a
-              href="#"
+              href="#servicios"
               className="hover:bg-secondary hover:text-text font-bold px-4 py-2 rounded-xl cursor-pointer"
             >
               {pag1}
@@ -46,7 +48,7 @@ export const Navbar = ({ name, pag1, pag2, pag3 }) => {
           </li>
           <li className="my-5 lg:my-0">
             <a
-              href="#"
+              href="#nosotros"
               className="hover:bg-secondary hover:text-text font-bold px-4 py-2 rounded-xl cursor-pointer"
             >
               {pag2}
@@ -54,7 +56,7 @@ export const Navbar = ({ name, pag1, pag2, pag3 }) => {
           </li>
           <li className="my-5 lg:my-0">
             <a
-              href="#"
+              href="#contacto"
               className="hover:bg-secondary hover:text-text font-bold px-4 py-2 rounded-xl cursor-pointer"
             >
               {pag3}

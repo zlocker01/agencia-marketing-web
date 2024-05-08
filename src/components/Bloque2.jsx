@@ -1,7 +1,7 @@
 import { Card } from "./Card";
 export const Bloque2 = () => {
   return (
-    <div className=" bg-principal text-text py-5 text-center text-lg">
+    <div id="nosotros" className=" bg-principal text-text py-5 text-center text-lg">
       <h2 className="font-bold text-3xl pb-5">Permitenos Presentarnos</h2>
       <div className="flex flex-col lg:flex-row justify-center items-center">
         <Card
