@@ -12,7 +12,7 @@ export const Navbar = ({ name, pag1, pag2, pag3 }) => {
     });
   });
   return (
-    <header className="flex justify-center items-start fixed w-full h-full z-10">
+    <header className="flex justify-center items-start fixed w-full z-10">
       <nav className="bg-background text-principal w-full h-auto top-0 left-0 flex flex-row flex-wrap lg:flex-nowrap justify-between items-center px-8 py-2 shadow-md shadow-slate-600 rounded-lg opacity-80 m-3">
         <div className="logo font-large font-bold text-base sm:text-lg hover:text-secondary cursor-pointer">
           <h1>{name}</h1>
