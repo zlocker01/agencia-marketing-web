@@ -1,6 +1,6 @@
+/* eslint-disable react/prop-types */
 import { useEffect } from "react";
 
-/* eslint-disable react/prop-types */
 export const Navbar = ({ name, pag1, pag2, pag3 }) => {
     useEffect(() => {
   const menuButton = document.querySelector('#menu-button');
