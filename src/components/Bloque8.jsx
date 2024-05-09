@@ -3,7 +3,7 @@ import { Boton } from "./Boton";
 export const Bloque8 = () => {
   return (
     <>
-      <h2 className="font-bold text-2xl text-principal text-center mt-10 mb-5">
+      <h2 className="font-roboto font-bold text-2xl text-principal text-center mt-10 mb-5">
         ¿Qué podemos hacer por tu negocio?
       </h2>
       <div className="flex flex-col justify-center items-center mb-10 mx-3">

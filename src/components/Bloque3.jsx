@@ -2,10 +2,10 @@ import { Boton } from "./Boton"
 export const Bloque3 = () => {
   return (
     <div className="text-center py-5">
-      <h2 className="font-bold text-2xl text-principal">
+      <h2 className="font-roboto font-bold text-2xl text-principal">
         Somos tu Agencia ideal si...
       </h2>
-      <ul className="py-5 mb-5 flex flex-col justify-center items-center gap-5">
+      <ul className="font-nunito py-5 mb-5 flex flex-col justify-center items-center gap-5">
         <li>
           <svg
             className="w-full h-10 text-principal"

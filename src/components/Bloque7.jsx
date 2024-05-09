@@ -2,7 +2,7 @@ import { Card4 } from "./Card4";
 export const Bloque7 = () => {
   return (
     <>
-      <h2 className="font-bold text-2xl text-principal text-center mt-10 mb-5">
+      <h2 className="font-roboto font-bold text-2xl text-principal text-center mt-10 mb-5">
         ¿Para qué tipo de negocios podemos trabajar?
       </h2>
       <div className="bg-principal text-text py-5 ">

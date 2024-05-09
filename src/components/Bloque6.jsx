@@ -2,7 +2,7 @@ import { Card3 } from "./Card3";
 export const Bloque6 = () => {
   return (
     <div id="servicios">
-      <h2 className="font-bold text-2xl text-principal text-center">
+      <h2 className="font-roboto font-bold text-2xl text-principal text-center">
         ¿Cómo trabajamos?
       </h2>
       <div className="lg:flex lg:flex-row lg:items-center lg:content-center text-center my-10">

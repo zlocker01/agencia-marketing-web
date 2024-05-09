@@ -4,7 +4,7 @@ import { SphereModel } from './models/SphereModel';
 
 export const Bloque1 = () => {
   return (
-    <div className="py-10 lg:py-28 flex flex-col lg:flex-row-reverse justify-center items-center gap-5 text-center text-lg">
+    <div className="font-nunito py-10 lg:py-28 flex flex-col lg:flex-row-reverse justify-center items-center gap-5 text-center text-lg">
       <div>
         <Scene>
           <SphereModel />
@@ -22,7 +22,7 @@ export const Bloque1 = () => {
         <p>Llegaste al lugar indicado.</p>
         <p className='mb-3'>
           Da clic aquí y agenda un diagnóstico de marketing totalmente{' '}
-          <span className="font-bold text-secondary">GRATIS</span>
+          <span className="font-roboto font-bold text-secondary">GRATIS</span>
         </p>
         <Boton btn="Agendar Diagnóstico" />
       </div>

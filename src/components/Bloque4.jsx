@@ -2,7 +2,7 @@ import { Card2 } from "./Card2"
 export const Bloque4 = () => {
   return (
     <div className="text-center py-5 w-full">
-      <h2 className="font-bold text-2xl text-principal">
+      <h2 className="font-roboto font-bold text-2xl text-principal">
         ¿Por qué elegirnos como tu agencia?
       </h2>
       <div className="flex flex-col lg:flex-row justify-center items-center gap-4 m-5">

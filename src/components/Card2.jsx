@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export const Card2 = ({ text }) => {
   return (
-    <div className="font-semibold bg-principal text-text border-principal rounded-lg border-2 p-3 shadow-md shadow-slate-500">
+    <div className="font-nunito font-semibold bg-principal text-text border-principal rounded-lg border-2 p-3 shadow-md shadow-slate-500">
   <svg
     className="w-full h-10 text-text py-1"
     aria-hidden="true"

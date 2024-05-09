@@ -10,6 +10,10 @@ export default {
         text: '#ecf0f1',
         whatsApp: '#08C040',
       },
+      fontFamily: {
+        'nunito': ['Nunito', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+      }
     },
   },
   plugins: [],
